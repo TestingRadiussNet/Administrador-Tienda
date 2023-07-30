@@ -1,0 +1,481 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2023-07-27 15:35:01",
+            "filesum": 67,
+            "codesum": 10025,
+            "commentsum": 74,
+            "blanksum": 485,
+            "statistics": {
+                ".css": {
+                    "code": 284,
+                    "comment": 0,
+                    "blank": 33
+                },
+                ".ts": {
+                    "code": 142,
+                    "comment": 39,
+                    "blank": 20
+                },
+                ".tsx": {
+                    "code": 2370,
+                    "comment": 20,
+                    "blank": 344
+                },
+                ".svg": {
+                    "code": 62,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".csv": {
+                    "code": 38,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 97,
+                    "comment": 0,
+                    "blank": 26
+                },
+                ".txt": {
+                    "code": 93,
+                    "comment": 0,
+                    "blank": 6
+                },
+                ".js": {
+                    "code": 48,
+                    "comment": 1,
+                    "blank": 1
+                },
+                ".json": {
+                    "code": 6813,
+                    "comment": 2,
+                    "blank": 50
+                },
+                ".json5": {
+                    "code": 32,
+                    "comment": 3,
+                    "blank": 3
+                },
+                "": {
+                    "code": 16,
+                    "comment": 9,
+                    "blank": 2
+                },
+                ".html": {
+                    "code": 30,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 9,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 6,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/details.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/diff-details.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/diff.csv"
+                },
+                {
+                    "blank": 7,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/diff.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/diff.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/results.csv"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/results.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/results.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-07-26_20-40-24/results.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist-electron/main.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "dist-electron/preload.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 32,
+                    "comment": 3,
+                    "filename": "electron-builder.json5"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 15,
+                    "filename": "electron/electron-env.d.ts"
+                },
+                {
+                    "blank": 8,
+                    "code": 26,
+                    "comment": 12,
+                    "filename": "electron/main.ts"
+                },
+                {
+                    "blank": 8,
+                    "code": 77,
+                    "comment": 7,
+                    "filename": "electron/preload.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 48,
+                    "code": 6742,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "postcss.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "public/electron-vite.animate.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "public/electron-vite.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/vite.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/App.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "src/App.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src/assets/react.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 122,
+                    "comment": 0,
+                    "filename": "src/components/Esperando/Esperando.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "src/components/Esperando/Esperando.tsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 75,
+                    "comment": 0,
+                    "filename": "src/components/ModalEditarCategoria.tsx"
+                },
+                {
+                    "blank": 27,
+                    "code": 229,
+                    "comment": 0,
+                    "filename": "src/components/ModalEditarProducto.tsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 109,
+                    "comment": 0,
+                    "filename": "src/components/ModalEditarProveedor.tsx"
+                },
+                {
+                    "blank": 15,
+                    "code": 144,
+                    "comment": 0,
+                    "filename": "src/components/ModalEditarServicioInternet.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src/containers/ContenedorPrivado.tsx"
+                },
+                {
+                    "blank": 20,
+                    "code": 102,
+                    "comment": 0,
+                    "filename": "src/containers/ContenedorPublico.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "src/containers/ContenedorPublico.tsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "src/contexts/AutenticacionContext.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src/functions/validaciones.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src/global/api.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/hooks/autenticacion-hook.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/main.tsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "src/styles/formularios.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/styles/genericos.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/views/global/NoEncontrado.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/views/global/NoEncontrado.tsx"
+                },
+                {
+                    "blank": 16,
+                    "code": 134,
+                    "comment": 0,
+                    "filename": "src/views/private/Categorias.tsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src/views/private/Compras.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src/views/private/Inicio.tsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "src/views/private/NuevaCategoria.tsx"
+                },
+                {
+                    "blank": 15,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "src/views/private/NuevaCompra.tsx"
+                },
+                {
+                    "blank": 31,
+                    "code": 213,
+                    "comment": 16,
+                    "filename": "src/views/private/NuevoProducto.tsx"
+                },
+                {
+                    "blank": 12,
+                    "code": 105,
+                    "comment": 0,
+                    "filename": "src/views/private/NuevoProveedor.tsx"
+                },
+                {
+                    "blank": 17,
+                    "code": 137,
+                    "comment": 0,
+                    "filename": "src/views/private/NuevoServicioInternet.tsx"
+                },
+                {
+                    "blank": 19,
+                    "code": 177,
+                    "comment": 0,
+                    "filename": "src/views/private/Productos.tsx"
+                },
+                {
+                    "blank": 16,
+                    "code": 146,
+                    "comment": 0,
+                    "filename": "src/views/private/Proveedores.tsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 184,
+                    "comment": 0,
+                    "filename": "src/views/private/ServiciosInternet.tsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 78,
+                    "comment": 1,
+                    "filename": "src/views/public-cliente/CrearCuenta.tsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "src/views/public-cliente/Login.tsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "src/views/public-cliente/Recuperacion.tsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 57,
+                    "comment": 1,
+                    "filename": "src/views/public/CrearCuenta.tsx"
+                },
+                {
+                    "blank": 15,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "src/views/public/Login.tsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "src/views/public/Recuperacion.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 1,
+                    "filename": "src/vite-env.d.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "tailwind.config.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "tsconfig.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "tsconfig.node.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "vite.config.ts"
+                }
+            ]
+        }
+    ]
+}

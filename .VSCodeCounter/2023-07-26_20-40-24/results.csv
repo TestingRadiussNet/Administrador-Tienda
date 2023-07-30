@@ -1,0 +1,36 @@
+"filename", "language", "TypeScript", "CSS", "XML", "TypeScript JSX", "comment", "blank", "total"
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/App.css", "CSS", 0, 0, 0, 0, 0, 1, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/App.tsx", "TypeScript JSX", 0, 0, 0, 41, 2, 5, 48
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/assets/react.svg", "XML", 0, 0, 1, 0, 0, 0, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/components/Esperando/Esperando.css", "CSS", 0, 122, 0, 0, 0, 3, 125
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/components/Esperando/Esperando.tsx", "TypeScript JSX", 0, 0, 0, 23, 0, 3, 26
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/components/ModalEditarCategoria.tsx", "TypeScript JSX", 0, 0, 0, 75, 0, 12, 87
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/components/ModalEditarProveedor.tsx", "TypeScript JSX", 0, 0, 0, 109, 0, 12, 121
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/containers/ContenedorPrivado.tsx", "TypeScript JSX", 0, 0, 0, 36, 0, 7, 43
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/containers/ContenedorPublico.css", "CSS", 0, 102, 0, 0, 0, 20, 122
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/containers/ContenedorPublico.tsx", "TypeScript JSX", 0, 0, 0, 33, 0, 7, 40
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/contexts/AutenticacionContext.tsx", "TypeScript JSX", 0, 0, 0, 52, 0, 8, 60
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/functions/validaciones.ts", "TypeScript", 5, 0, 0, 0, 0, 0, 5
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/global/api.ts", "TypeScript", 1, 0, 0, 0, 0, 0, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/hooks/autenticacion-hook.ts", "TypeScript", 6, 0, 0, 0, 0, 2, 8
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/index.css", "CSS", 0, 3, 0, 0, 0, 0, 3
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/main.tsx", "TypeScript JSX", 0, 0, 0, 10, 0, 3, 13
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/styles/formularios.css", "CSS", 0, 54, 0, 0, 0, 10, 64
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/styles/genericos.css", "CSS", 0, 0, 0, 0, 0, 1, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/global/NoEncontrado.css", "CSS", 0, 3, 0, 0, 0, 1, 4
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/global/NoEncontrado.tsx", "TypeScript JSX", 0, 0, 0, 11, 0, 3, 14
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/Categorias.tsx", "TypeScript JSX", 0, 0, 0, 134, 0, 16, 150
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/Inicio.tsx", "TypeScript JSX", 0, 0, 0, 16, 0, 7, 23
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/NuevaCategoria.tsx", "TypeScript JSX", 0, 0, 0, 73, 0, 14, 87
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/NuevoProducto.tsx", "TypeScript JSX", 0, 0, 0, 123, 118, 19, 260
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/NuevoProveedor.tsx", "TypeScript JSX", 0, 0, 0, 105, 0, 13, 118
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/Productos.tsx", "TypeScript JSX", 0, 0, 0, 72, 0, 10, 82
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/private/Proveedores.tsx", "TypeScript JSX", 0, 0, 0, 146, 0, 17, 163
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/public-cliente/CrearCuenta.tsx", "TypeScript JSX", 0, 0, 0, 78, 1, 19, 98
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/public-cliente/Login.tsx", "TypeScript JSX", 0, 0, 0, 44, 0, 15, 59
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/public-cliente/Recuperacion.tsx", "TypeScript JSX", 0, 0, 0, 39, 1, 11, 51
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/public/CrearCuenta.tsx", "TypeScript JSX", 0, 0, 0, 57, 1, 15, 73
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/public/Login.tsx", "TypeScript JSX", 0, 0, 0, 50, 0, 16, 66
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/views/public/Recuperacion.tsx", "TypeScript JSX", 0, 0, 0, 39, 1, 11, 51
+"/Users/raxel/Projects/Escalante-RadiussNet/Desktopapp/radiuss-net-admin/src/vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 1, 1, 2
+"Total", "-", 12, 284, 1, 1366, 125, 282, 2070

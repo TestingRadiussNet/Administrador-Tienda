@@ -1,0 +1,64 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    padding: 40px;
+    box-shadow: 0px 5px 10px rgb(12, 48, 127);
+    text-align: center;
+    border-radius: 10px;
+    opacity:0.9;
+    
+}
+
+form .title{
+    color: rgb(37, 34, 34);
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+ 
+form label{
+    margin-bottom: 15px;
+}
+
+form label .fa-solid {
+    font-size: 20px;
+    color: rgb(120, 3, 3);
+    margin-right: 1 0px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: solid 1px rgb(184, 15, 15);
+    padding: 0 5px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+form .link{
+    padding: 12px;
+    font-family:  cursive;
+    font-size: 15px;
+    display: grid;
+    cursor: pointer;
+    
+}
+
+input[type=submit]{
+border: 0;
+outline: 0;
+background-color: deepskyblue;
+font-size: 28px;
+color: white;
+padding: 10px 30px;
+border-radius: 3px;
+}
+
+.icon{
+    font-size: 50px;
+    color: deepskyblue;
+}
