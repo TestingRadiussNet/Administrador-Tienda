@@ -48,6 +48,7 @@ const Ventas = () => {
             fecha,
           }
         );
+        alert(respuesta.data["msg"])
         limpiarStates();
         setModalEntrega(false);
         fetchData();
@@ -71,8 +72,10 @@ const Ventas = () => {
           API_URL + "/tareas/programar-fecha-instalacion/" + id,
           {
             fecha,
+            trabajador,
           }
         );
+        alert(respuesta.data["msg"])
         limpiarStates();
         setModalInstalacion(false);
         fetchData();
@@ -107,6 +110,7 @@ const Ventas = () => {
                     ID:{" "}
                     <span className="text-yellow-600 font-bold">{e._id}</span>
                   </p>
+                  <p>Cliente: <span className="">{e.usuario.nombre} {e.usuario.paterno} (<span className="text-yellow-600 font-bold">{e.usuario.telefono}</span>) (<span className="text-yellow-600 font-bold">{e.usuario.correo}</span>)</span></p>
                   <p>
                     Fecha: <span>{formatearFecha(e.fecha)} hrs</span>
                   </p>
@@ -147,8 +151,12 @@ const Ventas = () => {
                     <></>
                   )}
 
-<Link to={'/ventas/'+e._id} className="p-2 mt-4 text-white bg-green-600 hover:bg-green-700 block w-full text-center">Ver</Link>
-
+                  <Link
+                    to={"/ventas/" + e._id}
+                    className="p-2 mt-4 text-white bg-green-600 hover:bg-green-700 block w-full text-center"
+                  >
+                    Ver
+                  </Link>
                 </div>
               ))}
             </div>

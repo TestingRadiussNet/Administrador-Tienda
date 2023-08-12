@@ -9,6 +9,7 @@ const VentasDetalles = () => {
   const { id } = useParams();
   const navigate = useNavigate();
 
+  const [compraID, setCompraID] = useState("");
   const [detalles, setDetalles] = useState([]);
   const [usuario, setUsuario] = useState<any>({});
 
@@ -17,7 +18,7 @@ const VentasDetalles = () => {
       setCargando(true);
       try {
         const respuesta = await axios.get(API_URL + "/ventas/detalles/" + id);
-
+        setCompraID(id!.toString());
         setDetalles(respuesta.data["data"]);
         setUsuario(respuesta.data["usuario"]);
       } catch (error) {
@@ -51,6 +52,10 @@ const VentasDetalles = () => {
         Regresar
       </button>
       <div className="my-10 container mx-auto">
+        <p>
+          ID:
+          <span className="text-white  font-bold">{compraID}</span>
+        </p>
         <p className="text-xl">
           Compra de{" "}
           <span className="font-bold">
