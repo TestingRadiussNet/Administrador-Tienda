@@ -15,9 +15,7 @@ const ComprasDetalles = () => {
     async function fetchData() {
       setCargando(true);
       try {
-        const respuesta = await axios.get(
-          API_URL + "/compras/detalles/"+id
-        );
+        const respuesta = await axios.get(API_URL + "/compras/detalles/" + id);
 
         setDetalles(respuesta.data["data"]);
       } catch (error) {
@@ -42,6 +40,14 @@ const ComprasDetalles = () => {
     <Esperando />
   ) : (
     <>
+      <button
+        onClick={() => {
+          navigate("/compras");
+        }}
+        className="block mx-auto my-6 bg-amber-800 hover:bg-amber-900 py-4 px-4 text-2xl text-white font-normal"
+      >
+        Regresar
+      </button>
       <div className="mt-10 grid lg:grid-cols-2 gap-4 mx-auto container">
         {detalles.map((e: any, i) => (
           <div
@@ -67,7 +73,10 @@ const ComprasDetalles = () => {
                 Importe: <span>${e.cantidad * e.precioUnitario}</span>
               </p>
               <p>
-                Proveedor: <span>{e.proveedor.nombre} ({e.proveedor.correo})</span>
+                Proveedor:{" "}
+                <span>
+                  {e.proveedor.nombre} ({e.proveedor.correo})
+                </span>
               </p>
             </div>
           </div>

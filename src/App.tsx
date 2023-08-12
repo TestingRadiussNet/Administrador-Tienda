@@ -21,6 +21,7 @@ import Contrataciones from "./views/private/Contrataciones";
 import Ventas from "./views/private/Ventas";
 import ComprasDetalles from "./views/private/ComprasDetalles";
 import VentasDetalles from "./views/private/VentasDetalles";
+import Stats from "./views/private/Stats";
 
 const App = () => {
   return (
@@ -49,6 +50,7 @@ const App = () => {
             <Route path="/contrataciones" Component={Contrataciones}/>
             <Route path="/ventas" Component={Ventas}/>
             <Route path="/ventas/:id" Component={VentasDetalles}/>
+            <Route path="/estadisticas" Component={Stats}/>
           </Route>
 
           <Route path="*" element={<NoEncontrado />}/>

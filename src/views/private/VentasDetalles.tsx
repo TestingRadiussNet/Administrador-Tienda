@@ -10,16 +10,16 @@ const VentasDetalles = () => {
   const navigate = useNavigate();
 
   const [detalles, setDetalles] = useState([]);
+  const [usuario, setUsuario] = useState<any>({});
 
   useEffect(() => {
     async function fetchData() {
       setCargando(true);
       try {
-        const respuesta = await axios.get(
-          API_URL + "/ventas/detalles/" + id
-        );
+        const respuesta = await axios.get(API_URL + "/ventas/detalles/" + id);
 
         setDetalles(respuesta.data["data"]);
+        setUsuario(respuesta.data["usuario"]);
       } catch (error) {
         navigate("/ventas");
       } finally {
@@ -42,6 +42,28 @@ const VentasDetalles = () => {
     <Esperando />
   ) : (
     <>
+      <button
+        onClick={() => {
+          navigate("/ventas");
+        }}
+        className="block mx-auto my-6 bg-amber-800 hover:bg-amber-900 py-4 px-4 text-2xl text-white font-normal"
+      >
+        Regresar
+      </button>
+      <div className="my-10 container mx-auto">
+        <p className="text-xl">
+          Compra de{" "}
+          <span className="font-bold">
+            {usuario.nombre} {usuario.paterno} {usuario.materno}
+          </span>
+        </p>
+        <p className="text-xl">
+          Teléfono: <span className="font-bold">{usuario.telefono}</span>
+        </p>
+        <p className="text-xl">
+          Correo: <span className="font-bold">{usuario.correo}</span>
+        </p>
+      </div>
       <div className="mt-10 grid lg:grid-cols-2 gap-4 mx-auto container">
         {detalles.map((e: any, i) => (
           <div

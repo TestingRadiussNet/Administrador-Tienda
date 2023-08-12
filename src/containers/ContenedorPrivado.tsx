@@ -33,6 +33,7 @@ const ContenedorPrivado = () => {
           <Link to={'/contrataciones'} className="hover:text-white font-semibold">Contrataciones</Link>
           <Link to={'/proveedores'} className="hover:text-white font-semibold">Proveedores</Link>
           <Link to={'/categorias'} className="hover:text-white font-semibold">Categorias</Link>
+          <Link to={'/estadisticas'} className="hover:text-white font-semibold">Estadísticas</Link>
         </nav>
       </div>
       <Outlet />
