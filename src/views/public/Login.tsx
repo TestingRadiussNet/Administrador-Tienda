@@ -30,7 +30,7 @@ const Login = () => {
       navigate('/', {replace: true});
     } catch (error: any) {
       console.log(error);
-      alert(error.response);
+      alert(error.response.data['msg']);
     }
 
   }

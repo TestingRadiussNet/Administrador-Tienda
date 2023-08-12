@@ -34,7 +34,7 @@ const CrearCuenta = () => {
         navigate('/login', {replace: true});
       } catch (error: any) {
         console.log(error);
-        alert(error.response);
+        alert(error.response.data['msg'])
       }
     }
   }

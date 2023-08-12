@@ -24,9 +24,9 @@ const Categorias = () => {
         try {
             const respuesta = await axios.get(API_URL+"/categorias/listado");
             setListadoCategorias(respuesta.data['data']);
-        } catch (error) {
+        } catch (error: any) {
             console.log(error);
-            alert('Hubo un error');
+            alert(error.response.data['msg'])
         } finally { 
             setCargando(false);
         }

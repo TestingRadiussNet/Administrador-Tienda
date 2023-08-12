@@ -17,6 +17,10 @@ import ServiciosInternet from "./views/private/ServiciosInternet";
 import NuevoServicioInternet from "./views/private/NuevoServicioInternet";
 import Compras from "./views/private/Compras";
 import NuevaCompra from "./views/private/NuevaCompra";
+import Contrataciones from "./views/private/Contrataciones";
+import Ventas from "./views/private/Ventas";
+import ComprasDetalles from "./views/private/ComprasDetalles";
+import VentasDetalles from "./views/private/VentasDetalles";
 
 const App = () => {
   return (
@@ -41,6 +45,10 @@ const App = () => {
             <Route path="/internet/nuevo" Component={NuevoServicioInternet}/>
             <Route path="/compras" Component={Compras}/>
             <Route path="/compras/nueva" Component={NuevaCompra}/>
+            <Route path="/compras/:id" Component={ComprasDetalles}/>
+            <Route path="/contrataciones" Component={Contrataciones}/>
+            <Route path="/ventas" Component={Ventas}/>
+            <Route path="/ventas/:id" Component={VentasDetalles}/>
           </Route>
 
           <Route path="*" element={<NoEncontrado />}/>
